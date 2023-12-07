@@ -1,0 +1,4 @@
+for(indiceAux = indice; indiceAux >= 500; indiceAux--) {
+    a = indiceAux;
+    b = a * (2 * indiceAux);
+}

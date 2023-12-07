@@ -1,0 +1,8 @@
+for (indice = 150; indice > cadena; indice--) {
+    a = indice * 2;
+    b = a - 5 + (3 * indice);
+    mivariable = 300;
+    c += 5;
+    x++;
+    z = a + b + c
+  }

@@ -14,8 +14,8 @@
     <div class="container">
 
       <div class="container-top">
-        <input type="button" value="Cargar gramática">
-        <input type="button" value="Cargar ejemplo">
+        <input type="button" value="Cargar gramática" onclick="cargarGramatica()">
+        <input type="button" value="Cargar ejemplo" onclick="cargarEjemplo()">
         <input type="button" value="Salir">
       </div>
 
@@ -30,8 +30,15 @@
         </div>
       </div>
 
+      <div class="container-terminal">
+        <div class="terminal">
+          <div class="head-terminal"><span>terminal</span></div>
+          <div class="body-terminal"></div>
+        </div>
+      </div>
+
       <div class="container-button">
-        <input class="boton-iniciar" type="button" value="Iniciar">
+        <input class="boton-iniciar" type="button" value="Iniciar" onclick="cambiarDiv()">
       </div>
 
     </div>
