@@ -1,4 +1,4 @@
-for (indice = 150; indice > cadena; indice--) {
+for (indice = 150; indice >= cadena; indice--) {
     a = indice * 2;
     b = a - 5 + (3 * indice);
     mivariable = 300;
